@@ -1,0 +1,17 @@
+{
+  "name": "sigfig",
+  "version": "1.0.0",
+  "description": "Examples of sigfig tests using a variety of selectors",
+  "main": "index.js",
+  "author": "dks",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^0.22.0"
+  },
+  "scripts": {
+    "test:chrome": "testcafe chrome tests/exampletest.js"
+  },
+  "devDependencies": {
+    "supertest": "^3.3.0"
+  }
+}
