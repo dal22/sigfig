@@ -9,7 +9,8 @@
     "testcafe": "^0.22.0"
   },
   "scripts": {
-    "test:chrome": "testcafe chrome tests/exampletest.js"
+    "test:chrome": "testcafe chrome tests/exampletest.js",
+    "test:chrome:headless": "testcafe -c 2 chrome:headless tests/exampletest.js"
   },
   "devDependencies": {
     "supertest": "^3.3.0"
